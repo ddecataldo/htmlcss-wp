@@ -18,9 +18,8 @@ GENERAL
 TAG 
 **********************/
 header{
-    height: 80px;
-    background-color: #e579e6;
     margin-bottom: 20px;
+    border: 1px solid red;
 }
 footer{
     height: 50px;
@@ -34,36 +33,99 @@ ID
 /**********************
 CLASSI 
 **********************/
-.hero_section{
-    height: 400px;
-    background-color: #e1d67a;
-    margin-bottom: 20px;
+
+/* logo */
+.logo{
+    width: 200px;
+    border-right: 1px solid #ccc;
+    padding-right:10px
 }
+.logo img{
+    width: 100%;
+}
+/* navbar */
+nav ul{
+    list-style: none;
+    margin: -7px;
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 5px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+/* hero section */
+.hero_section{
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    height: 400px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.bg_alpha:before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 15px;
+}
+.hero_section_text{
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+    width: 50%;
+    color: #fff;
+
+}
+
+/* struttura float */
+
 .main_container {
-    background-color: #0086ff;
     padding-bottom: 20px;
 }
   
 .main_container_header {
-    background-color: #abcfe7;
-    height: 80px;
     margin-bottom: 20px;
 }
 .col {
     float: left;
-    background-color: #abcfe7;
-    height: 400px;
-    width: 25%;
+    width: 20%;
 }
   
 .col-center {
-width: calc(50% - 40px);
+width: calc(60% - 40px);
 margin: 0 20px;
 }
+.col_inner h5{
+    padding:15px 0;
+}
+.img_box{
+    width: 100%;
+    height: 200px;
+    border-radius:15px;
+    position: relative;
+}
+.img_box img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius:15px;
+}
+
+
 
 /* help */
 .container{
-    width: 920px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
