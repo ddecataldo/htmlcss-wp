@@ -1,0 +1,75 @@
+/********************** 
+GENERAL 
+**********************/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/********************** 
+TAG 
+**********************/
+header{
+    height: 80px;
+    background-color: #e579e6;
+    margin-bottom: 20px;
+}
+footer{
+    height: 50px;
+    background-color: #8801fe;
+    margin-top: 20px;
+}
+/**********************
+ID 
+**********************/
+
+/**********************
+CLASSI 
+**********************/
+.hero_section{
+    height: 400px;
+    background-color: #e1d67a;
+    margin-bottom: 20px;
+}
+.main_container {
+    background-color: #0086ff;
+    padding-bottom: 20px;
+}
+  
+.main_container_header {
+    background-color: #abcfe7;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.col {
+    float: left;
+    background-color: #abcfe7;
+    height: 400px;
+    width: 25%;
+}
+  
+.col-center {
+width: calc(50% - 40px);
+margin: 0 20px;
+}
+
+/* help */
+.container{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.borderRed{
+    border: 1px solid red;
+}
+.borderBlue{
+    border: 1px solid blue;
+}
