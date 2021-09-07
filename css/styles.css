@@ -22,13 +22,15 @@ header{
     border: 1px solid red;
 }
 footer{
-    height: 50px;
-    background-color: #8801fe;
     margin-top: 20px;
+    padding: 20px;
 }
 /**********************
 ID 
 **********************/
+#footer span{
+    color: red;
+}
 
 /**********************
 CLASSI 
@@ -46,7 +48,7 @@ CLASSI
 /* navbar */
 nav ul{
     list-style: none;
-    margin: -7px;
+    margin: 0 -7px;
     display: inline-block;
 }
 nav ul li{
@@ -129,9 +131,12 @@ margin: 0 20px;
     margin-left: auto;
     margin-right: auto;
 }
-.borderRed{
+/*.borderRed{
     border: 1px solid red;
 }
 .borderBlue{
     border: 1px solid blue;
+}*/
+.text-center{
+    text-align: center;
 }
